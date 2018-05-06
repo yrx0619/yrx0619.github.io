@@ -9,7 +9,7 @@ subtitle:
 description:
 author: John Doe
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
@@ -116,11 +116,11 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /
-  #categories: /categories/
+  home: 首页
+  categories: 分类
   #about: /about/
-  archives: /archives/
-  tags: /tags/
+  archives: 归档
+  tags: 标签
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -150,9 +150,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -372,7 +372,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: ec6b4532615c77d795f00649e484218e
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -559,7 +559,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
