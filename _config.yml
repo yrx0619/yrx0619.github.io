@@ -134,7 +134,7 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
-  about: user
+  #about: user
   categories: th
   schedule: calendar
   tags: tags
@@ -372,7 +372,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: ec6b4532615c77d795f00649e484218e
+#baidu_analytics: ec6b4532615c77d795f00649e484218e
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -559,7 +559,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: true
+  enable: false
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
