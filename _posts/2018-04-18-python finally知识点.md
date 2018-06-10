@@ -6,7 +6,7 @@ categories:
 tags:
 ---
 
-```
+```python
 def test():
     try:
         print "hellow"
@@ -34,7 +34,7 @@ sssss
 从结果中我们可以看出来，try 中的return并不影响finally后的语句执行，但是我们需要注意return并不是不执行，而是执行顺序变了，在try执行return前，先执行了finally的语句，然后在执行了try的return。
 
 
-```
+```python
 def test():
     try:
         print "hellow"
